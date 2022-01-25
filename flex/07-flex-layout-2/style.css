@@ -32,6 +32,7 @@ body {
 a{
   text-decoration: none;
   color: white;
+  font-size: 24px;
 }
 
 ul{
@@ -41,7 +42,6 @@ ul{
 body{
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .center {
@@ -50,5 +50,36 @@ body{
 }
 
 .sidebar{
+  flex-shrink: 0;
   width: 300px;
+}
+
+.header{
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding-left: 16px;
+}
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 32px;
+}
+
+.card{
+  width: 300px;
+  padding: 10px;
+  margin: 16px;
+}
+
+li{
+  margin-bottom: 16px;
 }
